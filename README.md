@@ -33,7 +33,7 @@ context and code-edit workflows.
 - Provides a downloadable VS Code extension through an automated public
   release workflow.
 
-[v0.10.0 release](https://github.com/maksimryzhov614/hermes-vscode/releases/tag/v0.10.0)
+[v0.10.1 release](https://github.com/maksimryzhov614/hermes-vscode/releases/tag/v0.10.1)
 · [source](https://github.com/maksimryzhov614/hermes-vscode)
 
 ## Engineering approach
