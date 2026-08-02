@@ -16,7 +16,7 @@ regressions before release.
   browser-selected image failures, and browser runtime errors.
 - Produces deterministic JSON and SARIF reports through a tested fail-last
   Action workflow.
-- Ships with 326 automated tests and a reproducible Node 22/24/26 CI matrix.
+- Ships with 327 automated tests and a reproducible Node 22/24/26 CI matrix.
 
 [CI](https://github.com/maksimryzhov614/viewport-sentinel/actions/workflows/ci.yml)
 · [v0.1.0](https://github.com/maksimryzhov614/viewport-sentinel/releases/tag/v0.1.0)
