@@ -19,8 +19,8 @@ regressions before release.
 - Ships with 327 automated tests and a reproducible Node 22/24/26 CI matrix.
 
 [CI](https://github.com/maksimryzhov614/viewport-sentinel/actions/workflows/ci.yml)
-· [v0.1.0](https://github.com/maksimryzhov614/viewport-sentinel/releases/tag/v0.1.0)
-· [npm](https://www.npmjs.com/package/viewport-sentinel/v/0.1.0)
+· [v0.1.1](https://github.com/maksimryzhov614/viewport-sentinel/releases/tag/v0.1.1)
+· [npm](https://www.npmjs.com/package/viewport-sentinel/v/0.1.1)
 · [demo](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/assets/demo.gif)
 
 ### [Hermes Agent for VS Code](https://github.com/maksimryzhov614/hermes-vscode)
