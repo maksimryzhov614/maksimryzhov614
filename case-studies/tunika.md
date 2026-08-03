@@ -46,6 +46,14 @@ rollback points, focused automated tests, and browser-visible checks at desktop
 and real mobile viewports. Operational fixes are verified against the public
 product experience after deployment.
 
+## Outcome
+
+- Customer-facing catalog changes are accepted against real desktop and mobile
+  browser behavior, including the media format the browser actually selects.
+- An incomplete catalog or media build does not silently replace the
+  known-good served version; the delivery path keeps a recovery point and
+  verifies the public product after release.
+
 ## Current limitations
 
 The source is private because this is an active commercial product. This case

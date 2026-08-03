@@ -6,6 +6,8 @@
 
 ## Summary
 
+**Role:** Frontend interaction architecture, responsive experience, asset validation, and browser QA.
+
 Mansara is an Alpha concept for exploring a residential complex through
 approved visual source material. It connects an overview, facade choices,
 floor selection, a sample apartment journey, and a park route in one responsive
@@ -42,6 +44,13 @@ A local verification loop rebuilds the site, checks script syntax, validates UI
 contracts, audits tour data and assets, and then hands off to a Google Chrome
 smoke-test. The current Alpha passed that loop before the portfolio evidence was
 captured.
+
+## Outcome
+
+- Separate overview, facade, floor, apartment, and park assets behave as one
+  navigable journey while preserving the user's context between screens.
+- Honest demo labels and still-image fallbacks keep missing backend data or
+  richer media from appearing complete when they are not.
 
 ## Current limitations
 

@@ -1,61 +1,29 @@
 # Maksim Ryzhov
 
-**Frontend / Full-stack Product Engineer**
+**Frontend Product Engineer**
 
-I build interactive web products, developer tools, and reliable delivery
-systems.
+I turn complex product flows into responsive interfaces, reliable releases,
+and evidence a reviewer can inspect.
 
-Open to frontend and product engineering roles · [Telegram](https://t.me/maksimryzhov614)
+Open to remote frontend and product engineering roles · UTC+5 ·
+[Resume](resume/Maksim_Ryzhov_Frontend_Product_Engineer.pdf) ·
+[Telegram](https://t.me/maksimryzhov614)
 
-## Selected product work
+## Product work
 
-### Tunika — Live commerce platform
+<p>
+  <a href="case-studies/tunika.md"><img src="assets/case-studies/tunika-preview.webp" width="49%" alt="Tunika production catalog interface"></a>
+  <a href="case-studies/mansara.md"><img src="assets/case-studies/mansara-preview.webp" width="49%" alt="Mansara interactive residential overview"></a>
+</p>
 
-**Production case study · private source · live product**
+- **[Tunika](https://github.com/maksimryzhov614/maksimryzhov614/blob/main/case-studies/tunika.md) — live commerce platform.** Production case study · private source · live product. Responsive catalog UI, browser media, Go publication, and release safeguards. [Live product](https://tunika-tkani.ru/)
+- **[Mansara](https://github.com/maksimryzhov614/maksimryzhov614/blob/main/case-studies/mansara.md) — interactive residential Alpha.** Alpha case study · private source · local demo. A 120-image building turntable, facade/floor exploration, sample apartment journey, and park walkthrough.
 
-[![Tunika production catalog interface](assets/case-studies/tunika-preview.webp)](case-studies/tunika.md)
+## Public tools
 
-A fabric-commerce platform where I work across responsive customer interfaces,
-catalog publication, browser media, operational safeguards, and release
-verification.
+- **[Viewport Sentinel](https://github.com/maksimryzhov614/viewport-sentinel)** — deterministic Chromium checks for responsive, image, and runtime regressions with JSON/SARIF output. [Proof run](https://github.com/maksimryzhov614/viewport-sentinel/actions/runs/30814151989) · [JSON](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/proof/results.json) · [SARIF](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/proof/results.sarif) · [v0.1.1](https://github.com/maksimryzhov614/viewport-sentinel/releases/tag/v0.1.1) · [npm](https://www.npmjs.com/package/viewport-sentinel/v/0.1.1)
+- **[Hermes Agent for VS Code](https://github.com/maksimryzhov614/hermes-vscode)** — a review-first client for a self-hosted agent bridge with file, selection, screenshot, and code-edit context.
 
-[Read the case study](https://github.com/maksimryzhov614/maksimryzhov614/blob/main/case-studies/tunika.md)
-· [Open the live product](https://tunika-tkani.ru/)
-
-### Mansara — Interactive residential Alpha
-
-**Alpha case study · private source · local demo**
-
-[![Mansara interactive residential overview](assets/case-studies/mansara-preview.webp)](case-studies/mansara.md)
-
-A source-anchored residential experience connecting a 120-image building
-turntable, facade and floor exploration, a sample apartment journey, and a
-six-stop park walkthrough.
-
-[Read the case study](https://github.com/maksimryzhov614/maksimryzhov614/blob/main/case-studies/mansara.md)
-
-## Public developer tools
-
-### [Viewport Sentinel](https://github.com/maksimryzhov614/viewport-sentinel)
-
-A Chromium CLI and GitHub Action that audits explicit page-by-viewport matrices
-for responsive layout, covered controls, browser-selected image failures, and
-runtime errors, then emits deterministic JSON and SARIF.
-
-[Successful proof run](https://github.com/maksimryzhov614/viewport-sentinel/actions/runs/30814151989)
-· [JSON proof](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/proof/results.json)
-· [SARIF proof](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/proof/results.sarif)
-· [v0.1.1](https://github.com/maksimryzhov614/viewport-sentinel/releases/tag/v0.1.1)
-· [npm](https://www.npmjs.com/package/viewport-sentinel/v/0.1.1)
-
-### [Hermes Agent for VS Code](https://github.com/maksimryzhov614/hermes-vscode)
-
-A VS Code client for a self-hosted agent bridge with file, selection, and
-screenshot context plus reviewable code-edit diffs before apply.
-
-[v0.10.1 release](https://github.com/maksimryzhov614/hermes-vscode/releases/tag/v0.10.1)
-· [source](https://github.com/maksimryzhov614/hermes-vscode)
-
-## Core tools
+## Focus
 
 TypeScript · React · Next.js · JavaScript · Node.js · Go · Playwright · GitHub Actions
