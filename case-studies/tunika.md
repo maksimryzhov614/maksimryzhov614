@@ -1,10 +1,12 @@
 # Tunika — Production commerce platform
 
-**Alpha case study · private source · live production**
+**Production case study · private source · live product**
 
 ![Tunika production catalog interface](../assets/case-studies/tunika-preview.webp)
 
 ## Summary
+
+**Role:** Product engineering across responsive UI, catalog publication, operational safeguards, and release verification.
 
 Tunika is a live fabric commerce platform for catalog discovery, product
 selection, and operationally reliable publication. My contribution covers
