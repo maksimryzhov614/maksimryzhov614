@@ -33,6 +33,14 @@ Live: [tunika-tkani.ru](https://tunika-tkani.ru/) · [art-square.studio](https:/
 - **[Viewport Sentinel](https://github.com/maksimryzhov614/viewport-sentinel)** — deterministic Chromium checks for responsive, image, and runtime regressions with JSON/SARIF output. [Proof run](https://github.com/maksimryzhov614/viewport-sentinel/actions/runs/30814151989) · [JSON](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/proof/results.json) · [SARIF](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/proof/results.sarif) · [v0.1.1](https://github.com/maksimryzhov614/viewport-sentinel/releases/tag/v0.1.1) · [npm](https://www.npmjs.com/package/viewport-sentinel/v/0.1.1)
 - **[Hermes Agent for VS Code](https://github.com/maksimryzhov614/hermes-vscode)** — a review-first client for a self-hosted agent bridge with file, selection, screenshot, and code-edit context.
 
+## Certificates
+
+- **[AI Challenge Hackathon by Halyk](assets/certificates/halyk-ai-challenge-hackathon.png)** — Certificate of Participation, issued by Halyk Bank (13.08.2026).
+
+<p>
+  <a href="assets/certificates/halyk-ai-challenge-hackathon.png"><img src="assets/certificates/halyk-ai-challenge-hackathon.png" width="60%" alt="Halyk AI Challenge Hackathon certificate of participation for Maksim Ryzhov"></a>
+</p>
+
 ## Focus
 
 TypeScript · React · Next.js · JavaScript · Node.js · Go · Playwright · GitHub Actions
