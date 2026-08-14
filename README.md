@@ -9,6 +9,8 @@ Open to remote frontend and product engineering roles · UTC+5 ·
 [Resume](resume/Maksim_Ryzhov_Frontend_Product_Engineer.pdf) ·
 [Telegram](https://t.me/maksimryzhov614)
 
+Live: [tunika-tkani.ru](https://tunika-tkani.ru/) · [art-square.studio](https://art-square.studio/) · [kalpak.dev](https://kalpak.dev/)
+
 ## Product work
 
 <p>
@@ -32,3 +34,11 @@ Open to remote frontend and product engineering roles · UTC+5 ·
 ## Focus
 
 TypeScript · React · Next.js · JavaScript · Node.js · Go · Playwright · GitHub Actions
+
+## Now
+
+<!-- Refresh this section at least monthly or delete it: a stale "Now" is worse than none. -->
+
+- Shipping ART SQUARE STUDIO releases through its 13-check evidence-writing gate (August 2026).
+- Running and maintaining the Tunika production catalog and its fail-closed publication pipeline.
+- Building storefront sites for Telegram shops at [kalpak.dev](https://kalpak.dev/).
