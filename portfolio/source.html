@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Maksim Ryzhov — Product Portfolio</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --ink: #10181f;
+    --muted: #5b6b78;
+    --line: #dde4ea;
+    --accent: #0e7490;
+    --accent-dark: #0b1f2a;
+    --bg-soft: #f2f6f8;
+  }
+  html, body { width: 210mm; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    font-size: 9.3pt;
+    line-height: 1.45;
+  }
+  a { color: var(--accent); text-decoration: none; }
+
+  .page { width: 210mm; height: 296mm; overflow: hidden; }
+
+  header {
+    background: var(--accent-dark);
+    color: #fff;
+    padding: 11mm 14mm 9mm;
+  }
+  .name { font-size: 21pt; font-weight: 700; letter-spacing: .3px; }
+  .role { font-size: 11pt; font-weight: 400; color: #9fd3e0; margin-top: 1.5mm; letter-spacing: .4px; }
+  .contact { margin-top: 4.5mm; font-size: 8.6pt; color: #c7d3dc; }
+  .contact a { color: #ffffff; border-bottom: 1px solid rgba(255,255,255,.35); }
+  .contact .sep { color: #46606f; margin: 0 1.2mm; }
+
+  .liveband {
+    background: var(--accent);
+    color: #eafcff;
+    padding: 2.6mm 14mm;
+    font-size: 8.8pt;
+    letter-spacing: .2px;
+  }
+  .liveband b { color: #ffffff; font-weight: 600; }
+  .liveband a { color: #ffffff; border-bottom: 1px solid rgba(255,255,255,.45); }
+  .liveband .sep { margin: 0 1.6mm; color: #bfeaf2; }
+
+  main { padding: 7mm 14mm 0; }
+
+  h2 {
+    font-size: 8.4pt;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: var(--accent);
+    border-bottom: 1.2px solid var(--line);
+    padding-bottom: 1.4mm;
+    margin: 6mm 0 3mm;
+  }
+  h2:first-child { margin-top: 0; }
+
+  .profile { color: var(--ink); }
+
+  .work { display: block; }
+  .item { margin-bottom: 4.2mm; page-break-inside: avoid; }
+  .item-head { display: flex; align-items: baseline; gap: 2.2mm; }
+  .item-title { font-size: 10.6pt; font-weight: 700; }
+  .item-title a { color: var(--ink); }
+  .item-tag { font-size: 8.4pt; color: var(--muted); }
+  .item-link { margin-left: auto; font-size: 8.4pt; white-space: nowrap; }
+  .item-role { font-size: 8.8pt; color: var(--muted); margin: .8mm 0 1mm; }
+  .item-role b { color: var(--ink); font-weight: 600; }
+  ul { list-style: none; }
+  li { padding-left: 4mm; position: relative; margin-bottom: .9mm; }
+  li::before { content: ""; position: absolute; left: .6mm; top: .62em; width: 1.5mm; height: 1.5mm; background: var(--accent); border-radius: 50%; }
+
+  .tools .item { margin-bottom: 2.6mm; }
+  .tools p { padding-left: 0; }
+
+  .foot {
+    display: flex; gap: 6mm; margin-top: 5mm;
+    background: var(--bg-soft);
+    border: 1px solid var(--line);
+    padding: 3.6mm 4.5mm;
+  }
+  .foot > div { flex: 1; }
+  .foot h3 {
+    font-size: 7.8pt; letter-spacing: 1.4px; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 1.4mm;
+  }
+  .foot p { font-size: 8.7pt; color: var(--ink); }
+  .dot { color: var(--muted); margin: 0 .8mm; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="name">Maksim Ryzhov</div>
+    <div class="role">Frontend / Full-stack Product Engineer · Product Portfolio</div>
+    <div class="contact">
+      Open to remote frontend and product engineering roles · UTC+5
+      <span class="sep">|</span><a href="https://github.com/maksimryzhov614">GitHub</a>
+      <span class="sep">|</span><a href="https://www.linkedin.com/in/maksim-ryzhov-6b0966428/">LinkedIn</a>
+      <span class="sep">|</span><a href="https://t.me/maksimryzhov614">Telegram</a>
+      <span class="sep">|</span><a href="mailto:maksryzhov16@gmail.com">maksryzhov16@gmail.com</a>
+    </div>
+  </header>
+  <div class="liveband">
+    <b>Live products:</b>
+    <a href="https://tunika-tkani.ru/">tunika-tkani.ru</a><span class="sep">·</span><a href="https://art-square.studio/">art-square.studio</a><span class="sep">·</span><a href="https://kalpak.dev/">kalpak.dev</a>
+  </div>
+
+  <main>
+    <h2>Profile</h2>
+    <p class="profile">
+      Frontend-focused product engineer shipping multilingual production sites, developer
+      tools, and evidence-based releases. I work from observable product behavior backward:
+      inspect the running system, make a bounded change, add focused tests, and verify the
+      result in the browser or delivery environment.
+    </p>
+
+    <h2>Selected Product Work</h2>
+
+    <div class="item">
+      <div class="item-head">
+        <span class="item-title">ART SQUARE STUDIO</span>
+        <span class="item-tag">Multilingual studio site · private source</span>
+        <span class="item-link"><a href="https://art-square.studio/">art-square.studio</a></span>
+      </div>
+      <div class="item-role"><b>Role:</b> Full product engineering: architecture, UI, content system, security headers, release pipeline.</div>
+      <ul>
+        <li>Four production locales (RU/EN/KY/DE) with an automated gate that fails the release on any missing translation key.</li>
+        <li>13-check release pipeline — strict nonce-based CSP, accessibility, Lighthouse, real Safari — writing inspectable evidence on every run.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-head">
+        <span class="item-title">kalpak.dev</span>
+        <span class="item-tag">Storefront bureau for Telegram shops · private source</span>
+        <span class="item-link"><a href="https://kalpak.dev/">kalpak.dev</a></span>
+      </div>
+      <div class="item-role"><b>Role:</b> Full product engineering and design: concept, UI, motion, release verification.</div>
+      <ul>
+        <li>Dark editorial storefront on Next.js RSC and Cloudflare Workers with eight switchable live design directions.</li>
+        <li>Honesty built into the interface: the one real client project and the demo concepts are explicitly labeled apart.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-head">
+        <span class="item-title">Tunika</span>
+        <span class="item-tag">Live commerce platform · private source</span>
+        <span class="item-link"><a href="https://tunika-tkani.ru/">tunika-tkani.ru</a></span>
+      </div>
+      <div class="item-role"><b>Role:</b> Product engineering across responsive UI, catalog publication, operational safeguards, release verification.</div>
+      <ul>
+        <li>Delivered catalog and product-page behavior across desktop and short mobile viewports, including filters, sorting, badges, fabric units, and JPG/WebP/AVIF selection.</li>
+        <li>Hardened Go-backed publication and reconciliation so incomplete output does not replace the known-good catalog; acceptance checks the public product after release.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-head">
+        <span class="item-title">Mansara</span>
+        <span class="item-tag">Interactive residential experience · private source</span>
+      </div>
+      <div class="item-role"><b>Role:</b> Frontend interaction architecture, responsive experience, asset validation, browser QA.</div>
+      <ul>
+        <li>Connected a 120-image building turntable, nine facade views, floor selection, a sample apartment journey, and a six-stop park walkthrough into one stateful browser flow.</li>
+        <li>Kept the presentation evidence-bounded with explicit demo data, responsive fallbacks, and no claim of continuous real-time 3D.</li>
+      </ul>
+    </div>
+
+    <h2>Public Developer Tools</h2>
+    <div class="tools">
+      <div class="item">
+        <p><a href="https://github.com/maksimryzhov614/viewport-sentinel"><b>Viewport Sentinel</b></a> — TypeScript CLI and GitHub Action for deterministic page-by-viewport Chromium checks with JSON and SARIF evidence. Published on npm.</p>
+      </div>
+      <div class="item">
+        <p><a href="https://github.com/maksimryzhov614/hermes-vscode"><b>Hermes Agent for VS Code</b></a> — review-first VS Code client for a self-hosted agent bridge, with file, selection, screenshot, and code-edit context.</p>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div>
+        <h3>Engineering Practice</h3>
+        <p>Responsive UI<span class="dot">·</span>deterministic tests<span class="dot">·</span>browser-visible QA<span class="dot">·</span>release gates<span class="dot">·</span>rollback-aware delivery<span class="dot">·</span>explicit product limitations</p>
+      </div>
+      <div>
+        <h3>Technology</h3>
+        <p>TypeScript<span class="dot">·</span>React<span class="dot">·</span>Next.js<span class="dot">·</span>JavaScript<span class="dot">·</span>Node.js<span class="dot">·</span>Go<span class="dot">·</span>Playwright<span class="dot">·</span>GitHub Actions<span class="dot">·</span>HTML/CSS</p>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>
