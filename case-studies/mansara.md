@@ -4,6 +4,13 @@
 
 ![Mansara interactive residential overview](../assets/case-studies/mansara-preview.webp)
 
+![Mansara interactive plan — full 360° rotation of the complex](../assets/case-studies/mansara-turntable.gif)
+
+_The animation is a full 360° pass of the interactive plan from the project's
+current iteration (a Vite + Three.js experience over photoreal pre-rendered
+frames), captured from the running local demo in Google Chrome. The case study
+below describes the earlier Alpha journey._
+
 ## Summary
 
 **Role:** Frontend interaction architecture, responsive experience, asset validation, and browser QA.
