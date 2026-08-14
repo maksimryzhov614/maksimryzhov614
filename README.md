@@ -15,7 +15,7 @@ Open to remote frontend and product engineering roles · UTC+5 ·
   <a href="case-studies/artsquare.md"><img src="assets/case-studies/artsquare-preview.webp" alt="ART SQUARE STUDIO landing page with a 1:100 architectural scale model"></a>
 </p>
 <p>
-  <a href="case-studies/tunika.md"><img src="assets/case-studies/tunika-preview.webp" width="49%" alt="Tunika production catalog interface"></a>
+  <a href="case-studies/tunika.md"><img src="assets/case-studies/tunika-preview.webp" width="49%" alt="Tunika landing page with a stack of Italian fabrics"></a>
   <a href="case-studies/mansara.md"><img src="assets/case-studies/mansara-preview.webp" width="49%" alt="Mansara interactive residential overview"></a>
 </p>
 

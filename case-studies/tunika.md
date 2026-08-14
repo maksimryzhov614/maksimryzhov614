@@ -2,7 +2,7 @@
 
 **Production case study · private source · live product**
 
-![Tunika production catalog interface](../assets/case-studies/tunika-preview.webp)
+![Tunika landing page with a stack of Italian fabrics](../assets/case-studies/tunika-preview.webp)
 
 ## Summary
 
@@ -58,14 +58,13 @@ product experience after deployment.
 
 The source is private because this is an active commercial product. This case
 study describes my scoped contribution rather than claiming ownership of the
-entire business or codebase. The screenshot contains only the public catalog
-interface; internal operations and exact business metrics are intentionally
-excluded.
+entire business or codebase. The screenshot contains only the public site;
+internal operations and exact business metrics are intentionally excluded.
 
 ## Evidence
 
 - [Live Tunika catalog](https://tunika-tkani.ru/)
-- The interface image above was captured from the public catalog in Google
+- The interface image above was captured from the public site in Google
   Chrome after confirming that the page loaded correctly.
 - The described delivery work is backed by focused automated checks and
   browser-visible release acceptance.
