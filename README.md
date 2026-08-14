@@ -7,7 +7,9 @@ and evidence a reviewer can inspect.
 
 Open to remote frontend and product engineering roles · UTC+5 ·
 [Resume](resume/Maksim_Ryzhov_Frontend_Product_Engineer.pdf) ·
-[Telegram](https://t.me/maksimryzhov614)
+[Telegram](https://t.me/maksimryzhov614) ·
+[Email](mailto:maksryzhov16@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/maksim-ryzhov-6b0966428/)
 
 Live: [tunika-tkani.ru](https://tunika-tkani.ru/) · [art-square.studio](https://art-square.studio/) · [kalpak.dev](https://kalpak.dev/)
 
