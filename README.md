@@ -1,6 +1,10 @@
-# Maksim Ryzhov
+<p align="center">
+  <img src="./assets/wordmark.svg" width="100%" alt="Maksim Ryzhov — Frontend Product Engineer. Interfaces, releases, evidence. Almaty, UTC+5, remote.">
+</p>
 
-**Frontend Product Engineer**
+<p align="center">
+  <img src="./assets/release-gate.svg" width="100%" alt="The 13-check pre-release gate: one command runs dependency audit, CSP contract, locale contract, consent texts, legal pages, robots, sitemap, canonical domain, license registry, route matrix, accessibility, Lighthouse budgets, and a real Safari pass, stopping at the first failure and writing its evidence to the repository.">
+</p>
 
 I turn complex product flows into responsive interfaces, reliable releases,
 and evidence a reviewer can inspect.
@@ -28,7 +32,13 @@ Live: [tunika-tkani.ru](https://tunika-tkani.ru/) · [art-square.studio](https:/
 - **[kalpak.dev](https://github.com/maksimryzhov614/maksimryzhov614/blob/main/case-studies/kalpak.md) — storefront bureau for Telegram shops.** Production case study · private source · live product. A dark editorial storefront on Next.js RSC and Cloudflare Workers: one real client project, clearly labeled demo concepts, and eight switchable design directions. [Live site](https://kalpak.dev/)
 - **[Tunika](https://github.com/maksimryzhov614/maksimryzhov614/blob/main/case-studies/tunika.md) — live commerce platform.** Production case study · private source · live product. Responsive catalog UI, browser media, Go publication, and release safeguards. [Live product](https://tunika-tkani.ru/)
 - **[Mansara](https://github.com/maksimryzhov614/maksimryzhov614/blob/main/case-studies/mansara.md) — interactive residential Alpha.** Alpha case study · private source · local demo. A 120-image building turntable, facade/floor exploration, sample apartment journey, and park walkthrough.
+
 ## Public tools
+
+<p>
+  <a href="https://github.com/maksimryzhov614/viewport-sentinel"><img src="./assets/card-viewport-sentinel.svg" width="49%" alt="viewport-sentinel — an MIT-licensed npm package running deterministic Chromium checks for responsive, image, and browser-runtime regressions, with JSON and SARIF output and a public proof run at v0.1.1."></a>
+  <a href="https://github.com/maksimryzhov614/hermes-vscode"><img src="./assets/card-hermes-vscode.svg" width="49%" alt="hermes-vscode — an MIT-licensed VS Code extension: a review-first client for a self-hosted agent bridge carrying files, selection, screenshots, and code edits, with a diff preview before anything is applied."></a>
+</p>
 
 - **[Viewport Sentinel](https://github.com/maksimryzhov614/viewport-sentinel)** — deterministic Chromium checks for responsive, image, and runtime regressions with JSON/SARIF output. [Proof run](https://github.com/maksimryzhov614/viewport-sentinel/actions/runs/30814151989) · [JSON](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/proof/results.json) · [SARIF](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/proof/results.sarif) · [v0.1.1](https://github.com/maksimryzhov614/viewport-sentinel/releases/tag/v0.1.1) · [npm](https://www.npmjs.com/package/viewport-sentinel/v/0.1.1)
 - **[Hermes Agent for VS Code](https://github.com/maksimryzhov614/hermes-vscode)** — a review-first client for a self-hosted agent bridge with file, selection, screenshot, and code-edit context.
