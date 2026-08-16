@@ -6,12 +6,12 @@
 
   <rect width="600" height="300" rx="22" fill="#FAFAF7"/>
 
-  <path d="M36 38 H36" stroke="#A16207" stroke-width="3" stroke-linecap="round">
+  <path d="M36 38 H74" stroke="#A16207" stroke-width="3" stroke-linecap="round">
     <animate attributeName="d" values="M36 38 H36;M36 38 H74" dur="0.5s" begin="0.25s"
              calcMode="spline" keySplines="0.16 1 0.3 1" fill="freeze"/>
   </path>
 
-  <g font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" opacity="0">
+  <g font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace">
     <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.5s" fill="freeze"/>
 
     <g font-size="12" letter-spacing="2.5" fill="#A5A199">

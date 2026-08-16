@@ -10,7 +10,8 @@ I turn complex product flows into responsive interfaces, reliable releases,
 and evidence a reviewer can inspect.
 
 Open to remote frontend and product engineering roles · UTC+5 ·
-[Portfolio](portfolio/Maksim_Ryzhov_Product_Portfolio.pdf) ·
+[maksimryzhov.ru](https://maksimryzhov.ru) ·
+[Portfolio PDF](portfolio/Maksim_Ryzhov_Product_Portfolio.pdf) ·
 [Telegram](https://t.me/maksimryzhov614) ·
 [Email](mailto:maksryzhov16@gmail.com) ·
 [LinkedIn](https://www.linkedin.com/in/maksim-ryzhov-6b0966428/)
@@ -40,15 +41,19 @@ Live: [tunika-tkani.ru](https://tunika-tkani.ru/) · [art-square.studio](https:/
   <a href="https://github.com/maksimryzhov614/hermes-vscode"><img src="./assets/card-hermes-vscode.svg" width="49%" alt="hermes-vscode — an MIT-licensed VS Code extension: a review-first client for a self-hosted agent bridge carrying files, selection, screenshots, and code edits, with a diff preview before anything is applied."></a>
 </p>
 
-- **[Viewport Sentinel](https://github.com/maksimryzhov614/viewport-sentinel)** — deterministic Chromium checks for responsive, image, and runtime regressions with JSON/SARIF output. [Proof run](https://github.com/maksimryzhov614/viewport-sentinel/actions/runs/30814151989) · [JSON](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/proof/results.json) · [SARIF](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/proof/results.sarif) · [v0.1.1](https://github.com/maksimryzhov614/viewport-sentinel/releases/tag/v0.1.1) · [npm](https://www.npmjs.com/package/viewport-sentinel/v/0.1.1)
-- **[Hermes Agent for VS Code](https://github.com/maksimryzhov614/hermes-vscode)** — a review-first client for a self-hosted agent bridge with file, selection, screenshot, and code-edit context.
+Viewport Sentinel evidence:
+[proof run](https://github.com/maksimryzhov614/viewport-sentinel/actions/runs/30814151989) ·
+[JSON](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/proof/results.json) ·
+[SARIF](https://github.com/maksimryzhov614/viewport-sentinel/blob/main/docs/proof/results.sarif) ·
+[v0.1.1](https://github.com/maksimryzhov614/viewport-sentinel/releases/tag/v0.1.1) ·
+[npm](https://www.npmjs.com/package/viewport-sentinel/v/0.1.1)
 
 ## Certificates
 
 - **[AI Challenge Hackathon by Halyk](assets/certificates/halyk-ai-challenge-hackathon.png)** — Certificate of Participation, issued by Halyk Bank (13.08.2026).
 
 <p>
-  <a href="assets/certificates/halyk-ai-challenge-hackathon.png"><img src="assets/certificates/halyk-ai-challenge-hackathon.png" width="60%" alt="Halyk AI Challenge Hackathon certificate of participation for Maksim Ryzhov"></a>
+  <a href="assets/certificates/halyk-ai-challenge-hackathon.png"><img src="assets/certificates/halyk-ai-challenge-hackathon.png" width="30%" alt="Halyk AI Challenge Hackathon certificate of participation for Maksim Ryzhov"></a>
 </p>
 
 ## Focus
@@ -62,3 +67,11 @@ TypeScript · React · Next.js · JavaScript · Node.js · Go · Playwright · G
 - Shipping ART SQUARE STUDIO releases through its 13-check evidence-writing gate (August 2026).
 - Running and maintaining the Tunika production catalog and its fail-closed publication pipeline.
 - Building storefront sites for Telegram shops at [kalpak.dev](https://kalpak.dev/).
+
+---
+
+Open to remote frontend and product engineering roles ·
+[maksimryzhov.ru](https://maksimryzhov.ru) ·
+[Telegram](https://t.me/maksimryzhov614) ·
+[Email](mailto:maksryzhov16@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/maksim-ryzhov-6b0966428/)
