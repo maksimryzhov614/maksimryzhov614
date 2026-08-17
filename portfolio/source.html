@@ -24,6 +24,19 @@
   a { color: var(--accent); text-decoration: none; }
 
   .page { width: 210mm; height: 296mm; overflow: hidden; }
+  .page + .page { page-break-before: always; }
+
+  .contbar {
+    background: var(--accent-dark);
+    color: #fff;
+    padding: 5.5mm 14mm;
+    display: flex;
+    align-items: baseline;
+    gap: 3mm;
+  }
+  .contbar .name { font-size: 12.5pt; font-weight: 700; }
+  .contbar .cont-role { font-size: 9pt; color: #9fd3e0; }
+  .contbar .cont-page { margin-left: auto; font-size: 8.4pt; color: #6f8b99; }
 
   header {
     background: var(--accent-dark);
@@ -97,9 +110,9 @@
 <div class="page">
   <header>
     <div class="name">Maksim Ryzhov</div>
-    <div class="role">Frontend / Full-stack Product Engineer · Product Portfolio</div>
+    <div class="role">Full-stack Product Engineer · AI &amp; Automation</div>
     <div class="contact">
-      Open to remote frontend and product engineering roles · UTC+5
+      Open to remote engineering roles · UTC+5
       <span class="sep">|</span><a href="https://github.com/maksimryzhov614">GitHub</a>
       <span class="sep">|</span><a href="https://www.linkedin.com/in/maksim-ryzhov-6b0966428/">LinkedIn</a>
       <span class="sep">|</span><a href="https://t.me/maksimryzhov614">Telegram</a>
@@ -114,10 +127,10 @@
   <main>
     <h2>Profile</h2>
     <p class="profile">
-      Frontend-focused product engineer shipping multilingual production sites, developer
-      tools, and evidence-based releases. I work from observable product behavior backward:
-      inspect the running system, make a bounded change, add focused tests, and verify the
-      result in the browser or delivery environment.
+      Product engineer shipping multilingual production sites, developer tools, and LLM agent
+      systems. I work from observable behavior backward: inspect the running system, make a
+      bounded change, add focused tests, and verify the result in the browser or delivery
+      environment. Page 1 is product work; page 2 is the AI and agent side.
     </p>
 
     <h2>Selected Product Work</h2>
@@ -176,7 +189,7 @@
     <h2>Public Developer Tools</h2>
     <div class="tools">
       <div class="item">
-        <p><a href="https://github.com/maksimryzhov614/viewport-sentinel"><b>Viewport Sentinel</b></a> — TypeScript CLI and GitHub Action for deterministic page-by-viewport Chromium checks with JSON and SARIF evidence. Published on npm.</p>
+        <p><a href="https://github.com/maksimryzhov614/viewport-sentinel"><b>Viewport Sentinel</b></a> — TypeScript CLI and GitHub Action for deterministic page-by-viewport Chromium checks with JSON and SARIF evidence. Published on npm as <a href="https://www.npmjs.com/package/viewport-sentinel">viewport-sentinel</a>.</p>
       </div>
       <div class="item">
         <p><a href="https://github.com/maksimryzhov614/hermes-vscode"><b>Hermes Agent for VS Code</b></a> — review-first VS Code client for a self-hosted agent bridge, with file, selection, screenshot, and code-edit context.</p>
@@ -191,6 +204,103 @@
       <div>
         <h3>Technology</h3>
         <p>TypeScript<span class="dot">·</span>React<span class="dot">·</span>Next.js<span class="dot">·</span>JavaScript<span class="dot">·</span>Node.js<span class="dot">·</span>Go<span class="dot">·</span>Playwright<span class="dot">·</span>GitHub Actions<span class="dot">·</span>HTML/CSS</p>
+      </div>
+    </div>
+  </main>
+</div>
+
+<div class="page">
+  <div class="contbar">
+    <span class="name">Maksim Ryzhov</span>
+    <span class="cont-role">AI &amp; Agent Engineering</span>
+    <span class="cont-page">Product Portfolio · 2 / 2</span>
+  </div>
+  <div class="liveband">
+    <b>Daily toolchain:</b>
+    Claude Code<span class="sep">·</span>OpenAI Codex<span class="sep">·</span>MCP servers and tools<span class="sep">·</span>self-hosted agents
+  </div>
+
+  <main>
+    <h2>How I Work With LLMs</h2>
+    <p class="profile">
+      I build the plumbing around models rather than the models themselves: agent backends,
+      MCP tools, prompt and context pipelines, and the gates that decide whether an agent's
+      output is allowed to land. Same principle as the product work — every step leaves
+      inspectable evidence, and nothing ships on a model's word alone.
+    </p>
+
+    <h2>Agent Systems</h2>
+
+    <div class="item">
+      <div class="item-head">
+        <span class="item-title">Hermes Agent</span>
+        <span class="item-tag">Self-hosted LLM agent · VS Code client public</span>
+        <span class="item-link"><a href="https://github.com/maksimryzhov614/hermes-vscode">hermes-vscode</a></span>
+      </div>
+      <div class="item-role"><b>Role:</b> Agent backend, transport, review flow, VS Code client.</div>
+      <ul>
+        <li>Telegram as the control surface: files, selected code, and screenshots go in as context; edits come back as a diff to review before anything touches the working tree.</li>
+        <li>Platform side in Python and aiohttp — TTL bearer tokens, rate limiting, SQLite audit trail, systemd units — so a self-hosted agent stays accountable for what it did.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-head">
+        <span class="item-title">ADW</span>
+        <span class="item-tag">Agentic development runner · private source</span>
+      </div>
+      <div class="item-role"><b>Role:</b> Runner architecture, isolation model, quality gates.</div>
+      <ul>
+        <li>Splits agent work into plan, build, and fix stages, each task in its own Git worktree, so parallel runs cannot corrupt one another's tree.</li>
+        <li>Detects the repository's own lint, typecheck, test, and build commands and turns them into gates the agent has to pass. Runs over Codex, Claude CLI, and Pi.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-head">
+        <span class="item-title">Covenant Compliance Agent</span>
+        <span class="item-tag">Halyk AI Challenge 2026 · document processing</span>
+      </div>
+      <div class="item-role"><b>Role:</b> Pipeline design, response-schema validation, release evidence.</div>
+      <ul>
+        <li>Python pipeline that reads covenant documents, produces structured output, and validates every response against a schema before it counts as an answer.</li>
+        <li>Public offline baseline verified at 36/36 — the scoring script and its evidence ship with the repository rather than living in a slide.</li>
+      </ul>
+    </div>
+
+    <h2>Automation Pipelines</h2>
+
+    <div class="item">
+      <div class="item-head">
+        <span class="item-title">Artsquare Instagram Pipeline</span>
+        <span class="item-tag">Content archive automation · private source</span>
+      </div>
+      <div class="item-role"><b>Role:</b> Pipeline engineering, normalization, test coverage.</div>
+      <ul>
+        <li>Python pipeline that downloads, normalizes, and locally stores an Instagram archive, with automated tests covering the normalization step.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-head">
+        <span class="item-title">Tunika publication safeguards</span>
+        <span class="item-tag">Go backend · see page 1</span>
+        <span class="item-link"><a href="https://tunika-tkani.ru/">tunika-tkani.ru</a></span>
+      </div>
+      <div class="item-role"><b>Role:</b> Publication hardening, reconciliation, post-release acceptance.</div>
+      <ul>
+        <li>Catalog publication with МойСклад integration where incomplete output is rejected instead of replacing the known-good catalog, and Playwright acceptance checks the public site after every release.</li>
+      </ul>
+    </div>
+
+    <div class="foot">
+      <div>
+        <h3>AI Practice</h3>
+        <p>Prompt and context pipelines<span class="dot">·</span>structured output<span class="dot">·</span>tool and function calling<span class="dot">·</span>MCP servers<span class="dot">·</span>review-before-apply<span class="dot">·</span>audit trails<span class="dot">·</span>measurable baselines</p>
+      </div>
+      <div>
+        <h3>AI Technology</h3>
+        <p>Python<span class="dot">·</span>aiohttp<span class="dot">·</span>SQLite<span class="dot">·</span>systemd<span class="dot">·</span>MCP<span class="dot">·</span>Claude Code<span class="dot">·</span>Codex<span class="dot">·</span>Telegram Bot API<span class="dot">·</span>VS Code API<span class="dot">·</span>Git worktree</p>
       </div>
     </div>
   </main>
